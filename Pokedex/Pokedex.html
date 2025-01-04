@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="Pokedex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Pokédex</h1>
+            <div class="hr"></div>
+            <div class="search-bar">
+                <form action="">
+                    <label for="search"><i class="fa-solid fa-magnifying-glass search-i"></i> 
+                    <input type="text" placeholder="Pokémon name, number or type" id="search">
+                    <button class="btn-search">Search</button>
+                </form>
+            </div>
+        </header>
+        <div class="main">
+            <div class="pokemon-card bg-green shadow-green">
+                <img src="./Image/Bulbasaur.png" alt="Bulbasaur" class="poke-img">
+                <p>Bulbasaur</p>
+                <span class="pokemon-number">#001</span>
+                <div class="pokemon-powers">
+                    <div class="bg-image"></div>
+                    <span class="pokemon-element grass"> <i class="fas fa-seedling"></i> Grass</span>
+                    <span class="pokemon-element poison"> <i class="fas fa-skull-crossbones"></i> Poision</span>
+                    
+                </div>
+            </div>
+            <div class="pokemon-card bg-green shadow-green">
+                <img src="./Image/Ivysaur.webp" alt="Ivysaur" class="poke-img">
+                <p>Ivysaur</p>
+                <span class="pokemon-number">#002</span>
+                <div class="pokemon-powers">
+                    <div class="bg-image"></div>
+                    <span class="pokemon-element grass"> <i class="fas fa-seedling"></i> Grass</span>
+                    <span class="pokemon-element poison"> <i class="fas fa-skull-crossbones"></i> Poision</span>
+                </div>
+            </div>
+            <div class="pokemon-card bg-green shadow-green">
+                <img src="./Image/003.webp" alt="Venusaur" class="poke-img">
+                <p>Bulbasaur</p>
+                <span class="pokemon-number">#003</span>
+                <div class="pokemon-powers">
+                    <div class="bg-image"></div>
+                    <span class="pokemon-element grass"> <i class="fas fa-seedling"></i> Grass</span>
+                    <span class="pokemon-element poison"> <i class="fas fa-skull-crossbones"></i> Poision</span>
+                </div>
+            </div>
+            <div class="pokemon-card bg-red shadow-red">
+                <img src="./Image/004.png" alt="Charmander" class="poke-img">
+                <p>Charmander</p>
+                <span class="pokemon-number">#004</span>
+                <div class="pokemon-powers">
+                    <div class="bg-image"></div>
+                    <span class="pokemon-element fire"><i class="fas fa-fire"></i> Fire</span>
+
+                </div>
+            </div>
+            <div class="pokemon-card bg-red shadow-red">
+                <img src="./Image/005.png" alt="Charmander" class="poke-img">
+                <p>Charmeleon</p>
+                <span class="pokemon-number">#005</span>
+                <div class="pokemon-powers">
+                    <div class="bg-image"></div>
+                    <span class="pokemon-element fire"><i class="fas fa-fire"></i> Fire</span>
+
+                </div>
+            </div>
+            <div class="pokemon-card bg-red shadow-red">
+                <img src="./Image/006.png" alt="Charizard" class="poke-img">
+                <p>Charizard</p>
+                <span class="pokemon-number">#006</span>
+                <div class="pokemon-powers">
+                    <div class="bg-image"></div>
+                    <span class="pokemon-element fire"><i class="fas fa-fire"></i> Fire</span>
+                    <span class="pokemon-element flying"><i class="fas fa-feather"></i> Flying</span>
+                </div>
+            </div>
+            <div class="pokemon-card bg-blue shadow-blue">
+                <img src="./Image/007.png" alt="Squirtle" class="poke-img">
+                <p>Squirtle</p>
+                <span class="pokemon-number">#007</span>
+                <div class="pokemon-powers">
+                    <div class="bg-image"></div>
+                    <span class="pokemon-element water"> <i class="fas fa-tint"></i> Water</span>
+
+                </div>
+            </div>
+            <div class="pokemon-card bg-blue shadow-blue">
+                <img src="./Image/008.png" alt="Wartortle" class="poke-img">
+                <p>Wartortle</p>
+                <span class="pokemon-number">#008</span>
+                <div class="pokemon-powers">
+                    <div class="bg-image"></div>
+                    <span class="pokemon-element water"> <i class="fas fa-tint"></i> Water</span>
+
+                </div>
+            </div>
+            <div class="pokemon-card bg-blue shadow-blue">
+                <img src="./Image/009.png" alt="Blastoise" class="poke-img">
+                <p>Blastoise</p>
+                <span class="pokemon-number">#009</span>
+                <div class="pokemon-powers">
+                    <div class="bg-image"></div>
+                    <span class="pokemon-element water"> <i class="fas fa-tint"></i> Water</span>
+
+                </div>
+            </div>
+            <div class="pokemon-card bg-bug shadow-bug">
+                <img src="./Image/010.png" alt="Caterpie" class="poke-img">
+                <p>Caterpie</p>
+                <span class="pokemon-number">#010</span>
+                <div class="pokemon-powers">
+                    <div class="bg-image"></div>
+                    <span class="pokemon-element bug"> <i class="fas fa-bug"></i> Bug</span>
+                </div>
+            </div>
+            <div class="pokemon-card bg-bug shadow-bug">
+                <img src="./Image/011.png" alt="Metapod" class="poke-img">
+                <p>Metapod</p>
+                <span class="pokemon-number">#011</span>
+                <div class="pokemon-powers">
+                    <div class="bg-image"></div>
+                    <span class="pokemon-element bug"> <i class="fas fa-bug"></i> Bug</span>
+
+                </div>
+            </div>
+            <div class="pokemon-card bg-bug shadow-bug">
+                <img src="./Image/012.png" alt="Caterpie" class="poke-img">
+                <p>Butterfree</p>
+                <span class="pokemon-number">#012</span>
+                <div class="pokemon-powers">
+                    <div class="bg-image"></div>
+                    <span class="pokemon-element bug"> <i class="fas fa-bug"></i> Bug</span>
+                    <span class="pokemon-element flying"><i class="fas fa-feather"></i> Flying</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
