@@ -3,6 +3,7 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+
 .blurb h2 {
     color: #ea1c2c;
     font-weight: 100;
@@ -23,6 +24,7 @@ body {
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
+    background-color: rgb(99, 54, 99);
 }
 
 #mainNavbar .nav-link {
